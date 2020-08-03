@@ -8,7 +8,7 @@ server:
 spring:
   mysql:
     datasource:
-      jdbcUrl: jdbc:mysql://localhost:3306/gg_intranet
+      jdbcUrl: jdbc:mysql://localhost:3306/micro
       username: root
       password: billa
       driver-class-name: com.mysql.cj.jdbc.Driver
