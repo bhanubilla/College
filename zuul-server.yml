@@ -28,7 +28,3 @@ spring:
 #   app:
 #      jwtSecret: gauditdev
 #      jwtExpirationMs: 86400000
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://eureka-server:8761/eureka/
