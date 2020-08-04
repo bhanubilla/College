@@ -1,8 +1,6 @@
 # Context Root
 server:
-  port: 8080
-  servlet:
-    context-path: /
+  port: 8762
 spring:
   application:
     name: zuul-server
@@ -32,3 +30,10 @@ spring:
 #   app:
 #      jwtSecret: gauditdev
 #      jwtExpirationMs: 86400000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
+ribbon:
+  ReadTimeout: 60000
+  ignored-services: '*'
