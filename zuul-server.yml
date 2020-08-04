@@ -32,6 +32,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
-ribbon:
-  ReadTimeout: 60000
-  ignored-services: '*'
