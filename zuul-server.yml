@@ -25,7 +25,8 @@ spring:
       hibernate.show_sql: true
 ## ==============================================================================
 ## App Properties
-#dt:
-#   app:
-#      jwtSecret: gauditdev
-#      jwtExpirationMs: 86400000
+security:
+   jwt:
+      token:
+        secret-key: gauditdev
+      expiration: 86400000
