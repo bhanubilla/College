@@ -68,7 +68,7 @@ dt.email.store.folder: INBOX
 
 # DIGITELE - FILE CONFIG ===========================================================================
 dt.file.upload-root-dir: d:/uploads
-dt.pdf.file.download-root-dir: d:/audit/report
+dt.pdf.file.download-root-dir: d:/audit/reports
 dt.pdf.file.fonts-root-dir: d:/audit/fonts
 dt.file.allow-content-types: text/plain, image/jpg, image/jpeg, image/png, application/pdf, application/vnd.ms-excel, application/msword, application/x-msexcel, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-powerpoint, application/vnd.openxmlformats-officedocument.presentationml.presentation
 
