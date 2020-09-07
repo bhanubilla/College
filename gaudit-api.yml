@@ -55,7 +55,7 @@ dt.cron.notif.pending-with-me: 0 0 7 ? * * *
 
 # DIGITELE - CRON EXPRESSIONS ======================================================================
 dt.jwt.secret-key: gauditdev
-dt.jwt.expiration-ms: 0
+dt.jwt.expiration-ms: 86400000
 dt.jwt.ref.expiration-ms: 86400000
 
 # DIGITELE - EMAIL - ENABLE/DISABLE ================================================================
